@@ -1,0 +1,21 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /var/www/html/php
+
+permissions:
+  - object: /var/www/html/php
+    owner: ubuntu
+    group: ubuntu
+
+hooks:
+  BeforeInstall:
+    - location: stop.sh
+      timeout: 30
+      runas: root
+  AfterInstall:
+    - location: start.sh
+      timeout: 30
+      runas: root
