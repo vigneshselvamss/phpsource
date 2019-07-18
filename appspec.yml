@@ -15,6 +15,9 @@ hooks:
     - location: stop.sh
       timeout: 30
       runas: root
+    - location: backup.sh
+      timeout: 300
+      runas: root
   AfterInstall:
     - location: start.sh
       timeout: 30
