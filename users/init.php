@@ -24,11 +24,11 @@ require_once $abs_us_root.$us_url_root.'users/helpers/helpers.php';
 
 // Set config
 $GLOBALS['config'] = array(
-	'mysql'      => array(
-'host'         => 'userspice.cgzvcps3pos7.us-west-2.rds.amazonaws.com',
-'username'     => 'userspicelogin3',
-'password'     => 'mysqlsocialhi5',
-'db'           => 'UserSpice',
+'mysql'        => array(
+'host'         => 'db-socialhi5.cgzvcps3pos7.us-west-2.rds.amazonaws.com',
+'username'     => 'Socialhi5',
+'password'     => 'Passwordsocial',
+'db'           => 'SocaialDB',
 ),
 'remember'        => array(
   'cookie_name'   => 'pmqesoxiw318374csb',
