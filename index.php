@@ -11,7 +11,9 @@ require_once $abs_us_root.$us_url_root.'users/includes/template/prep.php';
         function embedDashboard() {
             var containerDiv = document.getElementById("dashboardContainer");
             var params = {
-                url: "<?php echo(exec("python3 /var/www/html/getDashboardURL-xki92.py")); ?>",
+                url: "<?php 
+$response = file_get_contents('http://internal-Socialhi5-Apptier-ALB-1895237273.us-west-2.elb.amazonaws.com');
+echo $response; ?>",
                 container: containerDiv,
                 parameters: {
                     country: 'United States'
