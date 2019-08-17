@@ -3,4 +3,4 @@ task copyWebFiles(type: Copy) {
     into '/var/www/html'   // target directory
 }
 
-preBuild.dependsOn copyWebFiles  // execute task before build
+
