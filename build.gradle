@@ -1,5 +1,5 @@
 task copyWebFiles(type: Copy) {
-    from '/'             // source directory
+    from '/php'             // source directory
     into '/var/www/html'   // target directory
 }
 
