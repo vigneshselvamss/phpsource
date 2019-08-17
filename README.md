@@ -1,7 +1,7 @@
 # UserSpice4
  +UserSpice 4 is a complete OOP PDO PHP User Management System.  Full details, documentation, walkthroughs, and forums can be found at UserSpice.com.
  +
- +Ideally the git repository is for tracking changes.  All downloads should probably go through UserSpice.com where they are properly packaged for installtion. 
+ +Ideally the git repository is for tracking changes.  All downloads should probably go through UserSpice.com where they are properly packaged for installtion. csacsacas
  +
  +What makes UserSpice different from csalmost any other PHP User Management Framework is that it has been designed from the beginning to get out of your way so you can spend your time working on your project. Other systems may force you to use their rewriting rules, template engines, frameworks, etc. UserSpice doesn't. You can use as much of it or as little as you choose. It just sits there and does its job.
  +
